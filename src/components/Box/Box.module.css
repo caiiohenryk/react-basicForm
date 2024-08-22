@@ -1,0 +1,66 @@
+.mainDiv {
+    width: 25rem;
+    height: 30rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    gap: 2rem;
+    box-shadow: rgba(47, 44, 44, 0.44) 3px 3px 15px;
+}
+
+.Texts {
+    color: black;
+    font-family: "Inter", sans-serif;
+    text-shadow: rgba(26, 26, 26, 0.14) 2px 2px 3px;
+}
+
+.textsDiv p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.textsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.submitButton {
+    width: 20rem;
+    color: white;
+    height: 2.2rem;
+    background: #1d2c42;
+    border: 0;
+    font-size: 14px;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    box-shadow: rgba(26, 26, 26, 0.22) 1px 1px 10px;
+    cursor: pointer;
+}
+
+.formData {
+    width: 18rem;
+    color: black;
+    font-size: 14px;
+    height: 2rem;
+    background: none;
+    border: solid 1px black;
+    border-radius: 0.3rem;
+}
+
+.divInputs label {
+    font-size: 15px;
+}
