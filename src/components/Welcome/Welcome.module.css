@@ -1,4 +1,18 @@
 .mainDiv {
     color: white;
-    text-shadow: rgba(26, 26, 26, 0.32) 1px 1px 10px;
+    text-shadow: rgba(26, 26, 26, 0.37) 1px 1px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mainDiv p {
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.mainDiv img {
+    width: 75%;
 }
